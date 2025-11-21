@@ -1,5 +1,6 @@
+/* Mengatur font default seluruh halaman menjadi Arial */
 body {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #222;
@@ -7,7 +8,24 @@ body {
     padding: 0;
 }
 
+/* Contoh styling judul */
 h1, h2, h3 {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: #111;
+}
+
+/* Contoh styling paragraf */
+p {
+    color: #333;
+}
+
+/* Styling link (opsional) */
+a {
+    color: #0078ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
